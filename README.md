@@ -6,10 +6,10 @@ am-softmax or circleloss
 ## framework
 ### framework1: Nbase_1top
 N devices(servers) are used as base model(backbone) devices (data parallel), <br/>
-one device(server) as top model(the last feature_dim x num_classes fc and amsoftmax loss) device (model parallel).
+one device(server) as top model(the last feature_dim x num_classes fc and loss) device (model parallel).
 ### framework2: Nbase_Mtop
 N devices(servers) are used as base model(backbone) devices (data parallel), <br/>
-M device(server) as top model(the last feature_dim x num_classes fc and amsoftmax loss) device (model parallel).
+M device(server) as top model(the last feature_dim x num_classes fc and loss) device (model parallel).
 # train
 ## Nbase_1top
 ```bash
